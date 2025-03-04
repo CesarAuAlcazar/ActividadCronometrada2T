@@ -146,7 +146,9 @@ tr, td  {
 
 /* Formulario */
 
-
+fieldset {
+    margin: 0.8rem; 
+}
 .txtf {
     font-family: street;
     src: url(street.ttf);
@@ -183,6 +185,8 @@ legend{
     width: 200px;
     height: 50px;
     border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
 }
 
 .box {
