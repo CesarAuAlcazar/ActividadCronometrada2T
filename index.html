@@ -12,7 +12,7 @@
     <h1>To live is to fight, to fight is to live</h1>
 
     <table>
-        <th>Street Fighter</th>
+        <head>Street Fighter</head>
 
         <tr>
             <td id="ken">KEN</td>
@@ -39,6 +39,87 @@
             <td id="mbison">M BISON</td>
         </tr>
     </table>
+
+    <h2 class="txtf">Formulario de Inscripción para jugar a Street Figther</h2>
+    <div class="form">
+        <form action="mailto:raul@unir.com">
+            <fieldset>
+                <legend>DATOS PERSONALES</legend>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <p><input type="text" name="nombre" id="nombre" required>
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos: </label>
+                    <p><input type="text" name="Apellidos" id="apellidos" required>
+                </div>
+                <div>
+                    <label for="direccion">Direccion postal: </label>
+                    <p><input type="text" name="Direccion" id="direccion" placeholder="Calle" required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Nº" required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Piso"required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Cod. Postal" required>
+                        <input type="text" name="Direccion" id="direccion" placeholder="Ciudad" required>
+                </div>
+                <div>
+                    <label for="Nick">Nick: </label>
+                    <p><input type="text" name="Nick" id="nick" required>
+                </div>
+                <div>
+                    <label for="email">email: </label>
+                    <p><input type="email" name="email" id="email" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>SEXO USUARIO</legend>
+                <br><input type="radio" name="Sexo" value="Hombre">Hombre
+                <br><input type="radio" name="Sexo" value="Mujer">Mujer
+            </fieldset>
+            <fieldset>
+                <div class=">
+                    <label for="fnacimiento">Fecha de nacimiento: </label>
+                    <input type="date" name="fnacimiento" id="fnacimiento">
+                </div>
+            </fieldset>
+            <div class="elemento">
+                <legend>PERSONAJES</legend>
+                <select name="personajes">
+                    <option value="1">Ken</option>
+                    <option value="2">Chun Li</option>
+                    <option value="3">Zangief</option>
+                    <option value="4">Dhalsim</option>
+                    <option value="5">Ryu</option>
+                    <option value="6">E Honda</option>
+                    <option value="7">Blanka</option>
+                    <option value="8">Guille</option>
+                    <option value="9">T Hank</option>
+                    <option value="10">Feilong</option>
+                    <option value="11">Dee Jay</option>
+                    <option value="12">Cammy</option>
+                    <option value="13">Balrog</option>
+                    <option value="14">Vega</option>
+                    <option value="15">Sagat</option>
+                    <option value="16">M Bison</option>
+                </select>
+            </div>
+            </fieldset>
+            <p>Comentarios:
+                <br><textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500"
+                    class="box">
+                    </textarea>
+
+            <div >
+                <input class="botones" type="reset" value="Borrar">
+                <input class="botones" type="submit" value="Enviar">
+            </div>
+
+            <p>Comentarios:
+                <br><textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500"
+                    class="box">
+                    </textarea>
+                <br>
+        </form>
+    </div>
 
 </body>
 </html>

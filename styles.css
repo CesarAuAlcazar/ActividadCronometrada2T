@@ -24,12 +24,16 @@ h1 {
 }
 
 th {
+    width: 600px;
+    background-image: url(img/fondocabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Street';
-    font-size: 24px;
-    color: darkorange;
-    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+    display: block;
 }
-
 
 table {
     width: 600px;
@@ -39,11 +43,6 @@ table {
     border-radius: 10px;
     background-color: black;
     margin: 0 auto;
-    background-image: url(img/fondocabecera.jpg);
-    background-size: cover;
-    color: whitesmoke;
-    font-size: 40px;
-    opacity: 0.5;
 }
 
 tr, td  {
@@ -55,11 +54,10 @@ tr, td  {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    font-size: 18px;
+    font-size: 18px darkorange;
     text-align: center;
-    font-weight: bold darkorange;
+    font-weight: bold;
     padding-bottom: 2rem;
-
 }
 
 /* Imagenes */
@@ -143,4 +141,47 @@ tr, td  {
 #mbison {
     background-image: url(img/mbison.png);
     background-repeat: no-repeat;
+}
+
+/* Formulario */
+
+
+.txtf {
+    font-family: street;
+    src: url(street.ttf);
+    font: 28px;
+    text-align: center;
+}
+
+.form{
+    margin: auto;
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color:white;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    font-family: verdana;
+}
+
+legend{
+    font-family: street;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+
+.botones{
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: street;
+    src: url(street.ttf);
+    font-size: 18px;
+    color:  white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin: left 65px;
+    margin: bottom 10px;
+
 }
