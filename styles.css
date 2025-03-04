@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Street;
+    src: url('street.otf');
+
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Street';
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+th {
+    font-family: 'Street';
+    font-size: 24px;
+    color: darkorange;
+    text-align: center;
+}
+
+
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px rgb(237, 175, 5);
+    border-style: outset;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0 auto;
+    background-image: url(img/fondocabecera.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+tr, td  {
+    font-family: 'Street';
+    width: 40px;
+    height: 45px;
+    border: 2px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold darkorange;
+    padding-bottom: 2rem;
+
+}
+
+/* Imagenes */
+
+#ken {
+    background-image: url(img/ken.png);
+    background-repeat: no-repeat;
+}
+
+#chunli {
+    background-image: url(img/chunli.png);
+    background-repeat: no-repeat;
+}
+
+#zangief {
+    background-image: url(img/zangief.png);
+    background-repeat: no-repeat;
+}
+
+#dhalsim {
+    background-image: url(img/dhalsim.png);
+    background-repeat: no-repeat;
+}
+
+#ryu {
+    background-image: url(img/ryu.png);
+    background-repeat: no-repeat;
+}
+
+#ehonda {
+    background-image: url(img/EHonda.png);
+    background-repeat: no-repeat;
+
+}
+
+#blanka {
+    background-image: url(img/blanka.png);
+    background-repeat: no-repeat;
+}
+
+#guille {
+    background-image: url(img/Guille.png);
+    background-repeat: no-repeat;
+}
+
+#thawk {
+    background-image: url(img/thawk.png);
+    background-repeat: no-repeat;
+}
+
+#feilong {
+    background-image: url(img/feilong.png);
+    background-repeat: no-repeat;
+}
+
+#deejay {
+    background-image: url(img/deejay.png);
+    background-repeat: no-repeat;
+}
+
+#cammy {
+    background-image: url(img/cammy.png);
+    background-repeat: no-repeat;
+}
+
+#balrog {
+    background-image: url(img/balrog.png);
+    background-repeat: no-repeat;
+}
+
+#vega {
+    background-image: url(img/vega.png);
+    background-repeat: no-repeat;
+}
+
+#sagat {
+    background-image: url(img/sagat.png);
+    background-repeat: no-repeat;
+}
+
+#mbison {
+    background-image: url(img/mbison.png);
+    background-repeat: no-repeat;
+}
