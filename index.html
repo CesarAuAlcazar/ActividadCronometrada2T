@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,8 @@
     <h1>To live is to fight, to fight is to live</h1>
 
     <table>
-        <head>Street Fighter</head>
+
+        <th>Street Fighter</th>
 
         <tr>
             <td id="ken">KEN</td>
@@ -74,14 +75,16 @@
                 <legend>SEXO USUARIO</legend>
                 <br><input type="radio" name="Sexo" value="Hombre">Hombre
                 <br><input type="radio" name="Sexo" value="Mujer">Mujer
+                <br><input type="radio" name="Sexo" value="Prefiero No Decir">Prefiero No Decir
             </fieldset>
             <fieldset>
-                <div class=">
+                <div>
                     <label for="fnacimiento">Fecha de nacimiento: </label>
                     <input type="date" name="fnacimiento" id="fnacimiento">
                 </div>
             </fieldset>
-            <div class="elemento">
+            <div>
+            <fieldset>
                 <legend>PERSONAJES</legend>
                 <select name="personajes">
                     <option value="1">Ken</option>
@@ -103,16 +106,17 @@
                 </select>
             </div>
             </fieldset>
-            <p>Comentarios:
-                <br><textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500"
+            <fieldset>
+                <legend>Comentarios:</legend>
+                    <br><textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500"
                     class="box">
                     </textarea>
+            </fieldset>
 
-            <div >
+            <div>
                 <input class="botones" type="reset" value="Borrar">
                 <input class="botones" type="submit" value="Enviar">
             </div>
-
 
         </form>
     </div>

@@ -1,7 +1,6 @@
 @font-face {
     font-family: Street;
     src: url('street.otf');
-
 }
 
 :root {
@@ -50,14 +49,11 @@ tr, td  {
     width: 40px;
     height: 45px;
     border: 2px solid gray;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    font-size: 18px darkorange;
+    border-radius: 10px;
+    font-size: 18px;
+    color: darkorange;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 2rem;
 }
 
 /* Imagenes */
@@ -151,6 +147,7 @@ tr, td  {
     src: url(street.ttf);
     font: 28px;
     text-align: center;
+    color: crimson;
 }
 
 .form{
@@ -181,7 +178,15 @@ legend{
     width: 200px;
     height: 50px;
     border-radius: 5px;
-    margin: left 65px;
-    margin: bottom 10px;
+    margin: auto;
+}
 
+.box {
+    box-sizing: content-box;
+    width: 80%;
+    padding: 55px;
+  }
+
+.margen {
+    padding: 2rem;
 }
